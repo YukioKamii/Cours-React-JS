@@ -1,13 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return(
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Courses from './pages/Courses';
+import Course from './pages/Course';
+
+const App = () => {
+ return (
     <>
-      <h1>Plateforme de cours</h1>
+       <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Courses" element={<Courses />} />
+          <Route path="/Course" element={<Course />} />
+       </Routes>
     </>
-  );
-
-}
+ );
+};
 
 export default App;
+
