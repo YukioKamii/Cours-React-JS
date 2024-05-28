@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.NavBar{
+    background-color: rgb(210, 210, 210);
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: auto;
+    display: flex;
+}
+
+.NavBar_Text{
+    padding-right: 20px;
+    font-size: x-large;
+    font-weight: 500;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-left: -10px;
+    padding-right: 30px;
+}
+
+hr{
+    height: 0;
+}
+
+.children{
+    color: black;
+    margin-top: -280px;
+}
+
+.Footer{
+    bottom: 0;
+    color: black;
+    position: fixed;
+}
